@@ -7,10 +7,10 @@ WeeMo Inc. Ltd. LLC
 
 Group Member’s Names:
 
-Omar Kaddura
-Dewey Holland
-Zuleyma Baltazar
-Miguel Rodriguez
+Omar Kaddura,
+Dewey Holland,
+Zuleyma Baltazar,
+Miguel Rodriguez,
 
 
 Project Description
