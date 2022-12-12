@@ -44,7 +44,7 @@ To get started, we'll need the Next, React, and React-Dom NPM packages.
 You can install all of them at once with this command:
 
 Command
-npm install --save next
+npm install --save next react react-dom
 
 start the application in development mode with this command:
 
