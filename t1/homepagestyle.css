@@ -1,0 +1,161 @@
+/* Add a black background color to the top navigation */
+body {
+    background: url("depositphotos_40272303-stock-photo-growth.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+.menu {
+    background-color: #49be25;
+    overflow: hidden;
+    
+}
+
+    /* Style the links inside the navigation bar */
+    .menu a {
+        float: left;
+        color: #051204;
+        text-align: center;
+        padding: 13px 32px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+        /* Change the color of links on hover */
+        .menu a:hover {
+            background-color: #246b49;
+            color: black;
+        }
+
+        /* Add a color to the active/current link */
+        .menu a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+/*Container for search bar */
+form {
+    background-color: #D3D3D3;
+    width: 300px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items:  right;
+
+}
+input {
+    all: unset;
+    font: 16px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+::placeholder {
+    color: #246b49;
+    opacity: 0.7;
+}
+/*inital circle with shadows */
+.clock {
+    width: 175px;
+    height: 175px;
+    position: relative;
+    padding: 10px;
+    border: 6px solid #065535;
+    box-shadow: -4px -4px 10px rgba(67,67,67,0.5), inset 4px 4px 10px rgba(0,0,0,0.5), inset -4px -4px 10px rgba(67,67,67,0.5), 4px 4px 10px rgba(0,0,0,0.3);
+    border-radius: 50%;
+    margin: 15px auto;
+}
+/*Creating Hour/Minute/SECOND hands */
+/*
+#hour,
+#minute,
+#second {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+    */
+/* hour hand */
+.hour {
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+    background: #39ff14;
+    border: solid 1px black;
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+/* minute hand */
+.minute {
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;
+    background: #39ff14;
+    border: solid 1px black;
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+/* second hand */
+.second {
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8;
+    background: #39ff14;
+    border: solid 1px black;
+    position: absolute;
+   
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+/* 3 and 9 connections */
+#clocklines {
+    width: 100%;
+    position: absolute;
+    height: 3%;
+    opacity 50%;
+    background: black;
+    top: 50%;
+    right: 2px;
+    border-radius: 1%;
+}
+/* covers lines */
+#clocklinescover {
+    top: 15px;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    border-radius: 50%;
+    background: #34eb7a;
+}
+/*rotates hands */
+.rotate30 {
+    transform: rotate(30deg);
+}
+/*rotates hands */
+.rotate60 {
+    transform: rotate(60deg);
+}
+/*rotates hands */
+.rotate150 {
+    transform: rotate(150deg);
+}
+/*rotates hands */
+.rotate180 {
+    transform: rotate(180deg);
+}
+/*rotates hands */
+.rotate120 {
+    transform: rotate(120deg);
+}
+/*rotates hands */
+.rotate90 {
+    transform: rotate(90deg);
+}
